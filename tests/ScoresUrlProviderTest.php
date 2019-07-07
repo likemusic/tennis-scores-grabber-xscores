@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace TennisScoreGrabber\Xscores\Tests;
+namespace TennisScoresGrabber\XScores\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use TennisScoreGrabber\XScores\ScoresUrlProvider;
+use TennisScoresGrabber\XScores\ScoresUrlProvider;
 
 class ScoresUrlProviderTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace TennisScoreGrabber\Xscores;
+namespace TennisScoresGrabber\XScores;
 
-use TennisScoreGrabber\Contracts\HttpClientInterface;
-use TennisScoreGrabber\ScoresHtmlProvider as BaseScoresHtmlProvider;
-use TennisScoreGrabber\XScores\Contracts\ScoresUrlProviderXScoreInterface;
+use Likemusic\SimpleHttpClient\HttpClientInterface;
+use TennisScoresGrabber\ScoresHtmlProvider as BaseScoresHtmlProvider;
+use TennisScoresGrabber\XScores\Contracts\ScoresUrlProviderXScoreInterface;
 
 /**
  * Class ScoresHtmlProvider

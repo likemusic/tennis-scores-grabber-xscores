@@ -1,9 +1,8 @@
 <?php
 
-namespace TennisScoreGrabber\XScores\Contracts;
+namespace TennisScoresGrabber\XScores\Contracts;
 
-
-use TennisScoreGrabber\Contracts\ScoresUrlProviderInterface;
+use TennisScoresGrabber\Contracts\ScoresUrlProviderInterface;
 
 interface ScoresUrlProviderXScoreInterface extends ScoresUrlProviderInterface
 {

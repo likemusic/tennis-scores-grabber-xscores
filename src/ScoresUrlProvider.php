@@ -1,9 +1,9 @@
 <?php
 
-namespace TennisScoreGrabber\XScores;
+namespace TennisScoresGrabber\XScores;
 
 use DateTime;
-use TennisScoreGrabber\XScores\Contracts\ScoresUrlProviderXScoreInterface;
+use TennisScoresGrabber\XScores\Contracts\ScoresUrlProviderXScoreInterface;
 
 class ScoresUrlProvider implements ScoresUrlProviderXScoreInterface
 {

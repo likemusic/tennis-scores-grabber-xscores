@@ -15,7 +15,7 @@
   "type": "library",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  
+
   "require": {
     "php": ">=7.1.0",
     "likemusic/tennis-scores-grabber-base": "dev-master"
@@ -43,8 +43,8 @@
 
   "autoload": {
     "psr-4": {
-      "TennisScoreGrabber\\XScores\\": "src/",
-      "TennisScoreGrabber\\XScores\\Tests\\": "tests/"
+      "TennisScoresGrabber\\XScores\\": "src/",
+      "TennisScoresGrabber\\XScores\\Tests\\": "tests/"
     }
   }
 }

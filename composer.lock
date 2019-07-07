@@ -7,26 +7,71 @@
     "content-hash": "d6d2fca14e3abba38021de96a6e2c3d9",
     "packages": [
         {
-            "name": "likemusic/tennis-scores-grabber-base",
+            "name": "likemusic/simple-http-client",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:likemusic/tennis-scores-grabber-base.git",
-                "reference": "c0b977a9799e20c90e6504df57dfae6efd1601b2"
+                "url": "git@github.com:likemusic/simple-http-client.git",
+                "reference": "fa909568d523c607b5398755599a23b702e7c5d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/c0b977a9799e20c90e6504df57dfae6efd1601b2",
-                "reference": "c0b977a9799e20c90e6504df57dfae6efd1601b2",
+                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/fa909568d523c607b5398755599a23b702e7c5d0",
+                "reference": "fa909568d523c607b5398755599a23b702e7c5d0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0"
             },
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
-                    "TennisScoreGrabber\\": "src/"
+                    "Likemusic\\SimpleHttpClient\\": "src/"
+                }
+            },
+            "license": [
+                "private"
+            ],
+            "authors": [
+                {
+                    "name": "Valerij Ivashchenko",
+                    "email": "likemusicdev@gmail.com"
+                }
+            ],
+            "description": "Simple http-client interface.",
+            "keywords": [
+                "client",
+                "http",
+                "http-client"
+            ],
+            "support": {
+                "source": "https://github.com/likemusic/simple-http-client/tree/master",
+                "issues": "https://github.com/likemusic/simple-http-client/issues"
+            },
+            "time": "2019-07-07T22:01:22+00:00"
+        },
+        {
+            "name": "likemusic/tennis-scores-grabber-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:likemusic/tennis-scores-grabber-base.git",
+                "reference": "b90daab332175fff97b322b203b28d99ebcad8e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/b90daab332175fff97b322b203b28d99ebcad8e4",
+                "reference": "b90daab332175fff97b322b203b28d99ebcad8e4",
+                "shasum": ""
+            },
+            "require": {
+                "likemusic/simple-http-client": "dev-master",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TennisScoresGrabber\\": "src/"
                 }
             },
             "license": [
@@ -51,7 +96,7 @@
                 "source": "https://github.com/likemusic/tennis-scores-grabber-base/tree/master",
                 "issues": "https://github.com/likemusic/tennis-scores-grabber-base/issues"
             },
-            "time": "2019-07-07T19:58:09+00:00"
+            "time": "2019-07-07T23:36:37+00:00"
         }
     ],
     "packages-dev": [
@@ -112,61 +157,17 @@
             "time": "2019-03-17T17:37:11+00:00"
         },
         {
-            "name": "likemusic/simple-http-client",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:likemusic/simple-http-client.git",
-                "reference": "fa909568d523c607b5398755599a23b702e7c5d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/fa909568d523c607b5398755599a23b702e7c5d0",
-                "reference": "fa909568d523c607b5398755599a23b702e7c5d0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Likemusic\\SimpleHttpClient\\": "src/"
-                }
-            },
-            "license": [
-                "private"
-            ],
-            "authors": [
-                {
-                    "name": "Valerij Ivashchenko",
-                    "email": "likemusicdev@gmail.com"
-                }
-            ],
-            "description": "Simple http-client interface.",
-            "keywords": [
-                "client",
-                "http",
-                "http-client"
-            ],
-            "support": {
-                "source": "https://github.com/likemusic/simple-http-client/tree/master",
-                "issues": "https://github.com/likemusic/simple-http-client/issues"
-            },
-            "time": "2019-07-07T22:01:22+00:00"
-        },
-        {
             "name": "likemusic/simple-http-client-file-get-contents",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:likemusic/simple-http-client-file-get-content.git",
-                "reference": "751189179c07e9eb236bc27347bdf24b8e2fb2d2"
+                "reference": "0c9d8e9ba654279167acd9a4e49cd6db2d42ee1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/simple-http-client-file-get-content/zipball/751189179c07e9eb236bc27347bdf24b8e2fb2d2",
-                "reference": "751189179c07e9eb236bc27347bdf24b8e2fb2d2",
+                "url": "https://api.github.com/repos/likemusic/simple-http-client-file-get-content/zipball/0c9d8e9ba654279167acd9a4e49cd6db2d42ee1b",
+                "reference": "0c9d8e9ba654279167acd9a4e49cd6db2d42ee1b",
                 "shasum": ""
             },
             "require": {
@@ -179,7 +180,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Likemusic\\SimpleHttpClientFopen\\": "src/"
+                    "Likemusic\\SimpleHttpClient\\FileGetContents\\": "src/",
+                    "Likemusic\\SimpleHttpClient\\FileGetContents\\Tests\\": "tests/"
                 }
             },
             "license": [
@@ -202,7 +204,7 @@
                 "source": "https://github.com/likemusic/simple-http-client-file-get-content/tree/master",
                 "issues": "https://github.com/likemusic/simple-http-client-file-get-content/issues"
             },
-            "time": "2019-07-07T22:10:04+00:00"
+            "time": "2019-07-07T22:49:48+00:00"
         },
         {
             "name": "myclabs/deep-copy",
