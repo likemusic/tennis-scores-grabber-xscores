@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85927baca55546e470d103b9fddf9fa8",
+    "packages": [
+        {
+            "name": "likemusic/tennis-scores-grabber-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:likemusic/tennis-scores-grabber-base.git",
+                "reference": "94c25b2dc3953f3f4addc05ec21ecf29d2fab467"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/94c25b2dc3953f3f4addc05ec21ecf29d2fab467",
+                "reference": "94c25b2dc3953f3f4addc05ec21ecf29d2fab467",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "TennisScoreGrabber\\": "src/"
+                }
+            },
+            "license": [
+                "private"
+            ],
+            "authors": [
+                {
+                    "name": "Valerij Ivashchenko",
+                    "email": "likemusicdev@gmail.com"
+                }
+            ],
+            "description": "Base interfaces and classes for grabbing tennis scores.",
+            "keywords": [
+                "grabber",
+                "parser",
+                "score",
+                "scrapper",
+                "tennis",
+                "xscores.com"
+            ],
+            "support": {
+                "source": "https://github.com/likemusic/tennis-scores-grabber-base/tree/master",
+                "issues": "https://github.com/likemusic/tennis-scores-grabber-base/issues"
+            },
+            "time": "2019-07-07T11:11:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "likemusic/tennis-scores-grabber-base": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": []
+}

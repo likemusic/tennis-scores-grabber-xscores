@@ -1,0 +1,33 @@
+{
+  "name": "likemusic/tennis-scores-grabber-xscores",
+  "description": "Grabber for tennis scores from https://www.xscores.com/tennis/",
+  "version": "1.0.0",
+  "keywords": [
+    "xscores.com",
+    "tennis",
+    "scrapper",
+    "parser",
+    "grabber",
+    "scores"
+  ],
+
+  "license": "private",
+  "type": "project",
+
+  "require": {
+    "php": ">=7.1.0",
+    "likemusic/tennis-scores-grabber-base": "dev-master"
+  },
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/tennis-score-grabber.git"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "TennisScoreGrabber\\": "src/"
+    }
+  }
+}
