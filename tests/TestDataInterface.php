@@ -1,6 +1,6 @@
 <?php
 
-namespace TennisScoreGrabber\XScores\Tests;
+namespace TennisScoresGrabber\XScores\Tests;
 
 interface TestDataInterface
 {

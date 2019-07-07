@@ -15,8 +15,7 @@ use TennisScoresGrabber\XScores\ScoresUrlProvider;
  */
 class ScoresHtmlProviderTest extends TestCase
 {
-    const TEST_DATE = '2019-07-01';
-    const EXPECTED_HTML_CONTENT_FILENAME = 'tests/Fixtures/' . self::TEST_DATE . '.html';
+    const TEST_DATE = TestDataInterface::DATE;
 
     public function testGetScoresHtmlByDate()
     {

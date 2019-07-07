@@ -9,7 +9,7 @@ use TennisScoresGrabber\XScores\ScoresUrlProvider;
 
 class ScoresUrlProviderTest extends TestCase
 {
-    const TEST_DATE = '2019-07-01';
+    const TEST_DATE = TestDataInterface::DATE;
     const EXPECTED_URL = 'https://www.xscores.com/tennis/livescores/01-07';
 
     public function testGetUrlByDateTime():void
