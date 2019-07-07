@@ -12,22 +12,39 @@
   ],
 
   "license": "private",
-  "type": "project",
-
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  
   "require": {
     "php": ">=7.1.0",
     "likemusic/tennis-scores-grabber-base": "dev-master"
   },
+
+  "require-dev": {
+    "phpunit/phpunit" : "^7",
+    "likemusic/simple-http-client-file-get-contents": "@dev"
+  },
+
   "repositories":[
     {
       "type": "vcs",
       "url": "git@github.com:likemusic/tennis-score-grabber.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/simple-http-client-file-get-content.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/simple-http-client.git"
     }
   ],
 
   "autoload": {
     "psr-4": {
-      "TennisScoreGrabber\\": "src/"
+      "TennisScoreGrabber\\XScores\\": "src/",
+      "TennisScoreGrabber\\XScores\\Tests\\": "tests/"
     }
   }
 }
