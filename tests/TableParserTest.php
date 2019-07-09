@@ -3,6 +3,7 @@
 namespace TennisScoresGrabber\XScores\Tests;
 
 use PHPUnit\Framework\TestCase;
+use TennisScoresGrabber\XScores\Helper\GameRowToGameConverter;
 use TennisScoresGrabber\XScores\TableParser;
 
 /**
@@ -13,7 +14,8 @@ class TableParserTest extends TestCase
 {
     public function testGetScoresData()
     {
-        $tableParser = new TableParser();
+        $gameRowToGameConverter = new GameRowToGameConverter();
+        $tableParser = new TableParser($gameRowToGameConverter);
         $scoresTable = $this->getTestScoresTable();
         $tableParser->getScoresData($scoresTable);
     }

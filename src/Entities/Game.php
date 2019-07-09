@@ -1,49 +1,67 @@
 <?php
 namespace TennisScoresGrabber\XScores\Entities;
 
-use DOMElement;
 use TennisScoresGrabber\XScores\Contracts\Entities\GameInterface;
 
 class Game implements GameInterface
 {
-    /** @var DOMElement */
-    private $DOMElement;
+    /** @var string|null */
+    private $playerHome;
 
-    /**
-     * Game constructor.
-     * @param DOMElement $DOMElement
-     */
-    public function __construct(DOMElement $DOMElement)
+    /** @var string|null */
+    private $playerAway;
+
+    /** @var string|null */
+    private $finalScoreHome;
+
+    /** @var string|null */
+    private $finalScoreAway;
+
+    public function getPlayerHome(): ?string
     {
-        $this->DOMElement = $DOMElement;
+        return $this->playerHome;
     }
 
-    public function getPlayersHome(): string
+    public function setPlayerHome(?string $player): GameInterface
     {
-        $playersDomElement = $this->getPlayersDomElement();
+        $this->playerHome = $player;
 
-
+        return $this;
     }
 
-    private function getPlayersDomElement()
+    public function getPlayerAway(): ?string
     {
-
+        return $this->playerAway;
     }
 
-    public function getPlayersAway(): string
+    public function setPlayerAway(?string $player): GameInterface
     {
-        // TODO: Implement getPlayersAway() method.
+        $this->playerAway = $player;
+
+        return $this;
     }
 
-    public function getFinalScoreHome(): string
+    public function getFinalScoreHome(): ?string
     {
-        // TODO: Implement getFinalScoreHome() method.
+        return $this->finalScoreHome;
     }
 
-    public function getFinalScoreAway(): string
+    public function setFinalScoreHome(?string $score): GameInterface
     {
-        // TODO: Implement getFinalScoreAway() method.
+        $this->finalScoreHome = $score;
+
+        return $this;
     }
 
+    public function getFinalScoreAway(): ?string
+    {
+        return $this->finalScoreAway;
+    }
 
+    public function setFinalScoreAway(?string $score): GameInterface
+    {
+        $this->finalScoreAway = $score;
+
+        return $this;
+    }
 }

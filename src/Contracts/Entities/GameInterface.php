@@ -2,15 +2,17 @@
 
 namespace TennisScoresGrabber\XScores\Contracts\Entities;
 
-/**
- * Interface Game
- * @package TennisScoresGrabber\Contracts\Entities
- */
 interface GameInterface
 {
-    public function getPlayersHome(): string;
-    public function getPlayersAway(): string;
+    public function getPlayerHome(): ?string;
+    public function setPlayerHome(?string $player): self;
 
-    public function getFinalScoreHome(): string;
-    public function getFinalScoreAway(): string;
+    public function getPlayerAway(): ?string;
+    public function setPlayerAway(?string  $player): self;
+
+    public function getFinalScoreHome(): ?string;
+    public function setFinalScoreHome(?string $score): self;
+
+    public function getFinalScoreAway(): ?string;
+    public function setFinalScoreAway(?string $score): self;
 }
