@@ -2,15 +2,16 @@
 
 namespace TennisScoreGrabber\XScores;
 
-use TennisScoreGrabber\Contracts\ScoresHtmlParserInterface;
-use TennisScoreGrabber\Contracts\ScoresHtmlProviderInterface;
-use TennisScoreGrabber\ScoresProvider as BaseScoresProvider;
+use TennisScoresGrabber\ScoresProvider as BaseScoresProvider;
+use TennisScoresGrabber\XScores\Contracts\HtmlParserInterface;
+use TennisScoresGrabber\XScores\Contracts\HtmlProviderInterface;
+use TennisScoresGrabber\XScores\Contracts\ScoresProviderInterface;
 
-class ScoresProvider extends BaseScoresProvider
+class ScoresProvider extends BaseScoresProvider implements ScoresProviderInterface
 {
     public function __construct(
-        ScoresHtmlProviderInterface $scoresHtmlProvider,
-        ScoresHtmlParserInterface $scoresHtmlParser
+        HtmlProviderInterface $scoresHtmlProvider,
+        HtmlParserInterface $scoresHtmlParser
     ) {
         parent::__construct($scoresHtmlProvider, $scoresHtmlParser);
     }

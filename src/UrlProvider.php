@@ -3,9 +3,9 @@
 namespace TennisScoresGrabber\XScores;
 
 use DateTime;
-use TennisScoresGrabber\XScores\Contracts\ScoresUrlProviderXScoreInterface;
+use TennisScoresGrabber\XScores\Contracts\UrlProviderInterface;
 
-class ScoresUrlProvider implements ScoresUrlProviderXScoreInterface
+class UrlProvider implements UrlProviderInterface
 {
     const URL_TEMPLATE = 'https://www.xscores.com/tennis/livescores/{day}-{month}';
 

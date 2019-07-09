@@ -56,15 +56,17 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:likemusic/tennis-scores-grabber-base.git",
-                "reference": "b90daab332175fff97b322b203b28d99ebcad8e4"
+                "reference": "1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/b90daab332175fff97b322b203b28d99ebcad8e4",
-                "reference": "b90daab332175fff97b322b203b28d99ebcad8e4",
+                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587",
+                "reference": "1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
                 "likemusic/simple-http-client": "dev-master",
                 "php": ">=7.1.0"
             },
@@ -96,7 +98,7 @@
                 "source": "https://github.com/likemusic/tennis-scores-grabber-base/tree/master",
                 "issues": "https://github.com/likemusic/tennis-scores-grabber-base/issues"
             },
-            "time": "2019-07-07T23:36:37+00:00"
+            "time": "2019-07-09T00:06:48+00:00"
         }
     ],
     "packages-dev": [
@@ -776,16 +778,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "c99e3be9d3e85f60646f152f9002d46ed7770d18"
+                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/c99e3be9d3e85f60646f152f9002d46ed7770d18",
-                "reference": "c99e3be9d3e85f60646f152f9002d46ed7770d18",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
+                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
                 "shasum": ""
             },
             "require": {
@@ -821,7 +823,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2018-10-30T05:52:18+00:00"
+            "time": "2019-07-08T05:24:54+00:00"
         },
         {
             "name": "phpunit/phpunit",

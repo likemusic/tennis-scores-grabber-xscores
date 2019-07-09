@@ -18,6 +18,7 @@
 
   "require": {
     "php": ">=7.1.0",
+    "ext-dom": "*",
     "likemusic/tennis-scores-grabber-base": "dev-master"
   },
 
