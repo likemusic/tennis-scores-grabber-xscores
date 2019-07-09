@@ -6,7 +6,7 @@ namespace TennisScoresGrabber\XScores\Contracts\Entities;
  * Interface PlayerInfo
  * @package TennisScoresGrabber\Contracts\Entities
  */
-interface PlayerInfo
+interface PlayerInfoInterface
 {
     public function getName(): string;
     public function setName(string $name):self;
