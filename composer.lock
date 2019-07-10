@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6d2fca14e3abba38021de96a6e2c3d9",
+    "content-hash": "7fff0b968d67c4f185363dc2dcb3cc31",
     "packages": [
         {
             "name": "likemusic/simple-http-client",
@@ -1634,7 +1634,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "ext-dom": "*"
     },
     "platform-dev": []
 }

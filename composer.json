@@ -30,7 +30,7 @@
   "repositories":[
     {
       "type": "vcs",
-      "url": "git@github.com:likemusic/tennis-score-grabber.git"
+      "url": "git@github.com:likemusic/tennis-scores-grabber-base.git"
     },
     {
       "type": "vcs",
