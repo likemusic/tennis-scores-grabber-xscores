@@ -7,10 +7,6 @@ use TennisScoresGrabber\HtmlProvider as BaseScoresHtmlProvider;
 use TennisScoresGrabber\XScores\Contracts\UrlProviderInterface;
 use TennisScoresGrabber\XScores\Contracts\HtmlProviderInterface;
 
-/**
- * Class ScoresHtmlProvider
- * @package TennisScoreGrabber\Xscores
- */
 class HtmlProvider extends BaseScoresHtmlProvider implements HtmlProviderInterface
 {
     public function __construct(HttpClientInterface $httpClient, UrlProviderInterface $scoresUrlProvider)

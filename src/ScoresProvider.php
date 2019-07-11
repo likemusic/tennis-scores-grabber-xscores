@@ -1,6 +1,6 @@
 <?php
 
-namespace TennisScoreGrabber\XScores;
+namespace TennisScoresGrabber\XScores;
 
 use TennisScoresGrabber\ScoresProvider as BaseScoresProvider;
 use TennisScoresGrabber\XScores\Contracts\HtmlParserInterface;

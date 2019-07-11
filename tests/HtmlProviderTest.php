@@ -9,10 +9,6 @@ use PHPUnit\Framework\TestCase;
 use TennisScoresGrabber\XScores\HtmlProvider;
 use TennisScoresGrabber\XScores\UrlProvider;
 
-/**
- * Class ScoresHtmlProviderTest
- * @package TennisScoreGrabber\Tests
- */
 class HtmlProviderTest extends TestCase
 {
     const TEST_DATE = TestDataInterface::DATE;
