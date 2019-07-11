@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fff0b968d67c4f185363dc2dcb3cc31",
+    "content-hash": "3cacc6f72326e9a1ef26469eb262bbf2",
     "packages": [
         {
             "name": "likemusic/simple-http-client",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:likemusic/simple-http-client.git",
-                "reference": "fa909568d523c607b5398755599a23b702e7c5d0"
+                "reference": "82104f39cc04b2d9dd0fe5ecbcf6e2eafaaf5514"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/fa909568d523c607b5398755599a23b702e7c5d0",
-                "reference": "fa909568d523c607b5398755599a23b702e7c5d0",
+                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/82104f39cc04b2d9dd0fe5ecbcf6e2eafaaf5514",
+                "reference": "82104f39cc04b2d9dd0fe5ecbcf6e2eafaaf5514",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "source": "https://github.com/likemusic/simple-http-client/tree/master",
                 "issues": "https://github.com/likemusic/simple-http-client/issues"
             },
-            "time": "2019-07-07T22:01:22+00:00"
+            "time": "2019-07-11T06:00:39+00:00"
         },
         {
             "name": "likemusic/tennis-scores-grabber-base",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:likemusic/tennis-scores-grabber-base.git",
-                "reference": "1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587"
+                "reference": "95da3392b4bbe4668f2fa8e397c48957d025aab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587",
-                "reference": "1ecb44d2b22e798c3d9ad9eb6e2a04b4e28b6587",
+                "url": "https://api.github.com/repos/likemusic/tennis-scores-grabber-base/zipball/95da3392b4bbe4668f2fa8e397c48957d025aab3",
+                "reference": "95da3392b4bbe4668f2fa8e397c48957d025aab3",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 "source": "https://github.com/likemusic/tennis-scores-grabber-base/tree/master",
                 "issues": "https://github.com/likemusic/tennis-scores-grabber-base/issues"
             },
-            "time": "2019-07-09T00:06:48+00:00"
+            "time": "2019-07-11T06:01:20+00:00"
         }
     ],
     "packages-dev": [
