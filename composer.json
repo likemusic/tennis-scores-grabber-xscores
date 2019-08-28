@@ -17,14 +17,20 @@
   "prefer-stable": true,
 
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=7.0.33",
     "ext-dom": "*",
     "likemusic/tennis-scores-grabber-base": "dev-master"
   },
 
   "require-dev": {
-    "phpunit/phpunit" : "^7",
+    "phpunit/phpunit" : "^6",
     "likemusic/simple-http-client-file-get-contents": "dev-master"
+  },
+
+  "config": {
+    "platform": {
+      "php": "7.0.33"
+    }
   },
 
   "repositories":[

@@ -7,3 +7,9 @@ services:
     volumes:
       - ./:/var/www/xscores
     command: ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/
+
+  composer:
+    image: composer:latest
+    volumes:
+      - ./:/var/www/xscores
+    working_dir: /var/www/xscores
