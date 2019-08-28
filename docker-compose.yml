@@ -2,7 +2,7 @@ version: '3'
 
 services:
   tests:
-    build: ./docker/composer
+    image: composer:latest
     working_dir: /var/www/xscores
     volumes:
       - ./:/var/www/xscores
