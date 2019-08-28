@@ -2,7 +2,7 @@ version: '3'
 
 services:
   tests:
-    image: composer:latest
+    image: php:7.0.33-cli
     working_dir: /var/www/xscores
     volumes:
       - ./:/var/www/xscores
