@@ -2,13 +2,13 @@
 
 namespace TennisScoresGrabber\XScores\Contracts\Helper;
 
-
 use DOMElement;
 
 interface XPathInterface
 {
     /**
-     * @param DOMElement $
+     * @param DOMElement $DOMElement
+     * @param $expression
      * @return mixed
      */
     public function evaluate(DOMElement $DOMElement, $expression);

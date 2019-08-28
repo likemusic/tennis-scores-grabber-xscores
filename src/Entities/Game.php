@@ -17,48 +17,48 @@ class Game implements GameInterface
     /** @var string|null */
     private $finalScoreAway;
 
-    public function getPlayerHome(): ?string
+    public function getPlayerHome()
     {
         return $this->playerHome;
     }
 
-    public function setPlayerHome(?string $player): GameInterface
+    public function setPlayerHome($player): GameInterface
     {
         $this->playerHome = $player;
 
         return $this;
     }
 
-    public function getPlayerAway(): ?string
+    public function getPlayerAway()
     {
         return $this->playerAway;
     }
 
-    public function setPlayerAway(?string $player): GameInterface
+    public function setPlayerAway($player): GameInterface
     {
         $this->playerAway = $player;
 
         return $this;
     }
 
-    public function getFinalScoreHome(): ?string
+    public function getFinalScoreHome()
     {
         return $this->finalScoreHome;
     }
 
-    public function setFinalScoreHome(?string $score): GameInterface
+    public function setFinalScoreHome($score): GameInterface
     {
         $this->finalScoreHome = $score;
 
         return $this;
     }
 
-    public function getFinalScoreAway(): ?string
+    public function getFinalScoreAway()
     {
         return $this->finalScoreAway;
     }
 
-    public function setFinalScoreAway(?string $score): GameInterface
+    public function setFinalScoreAway($score): GameInterface
     {
         $this->finalScoreAway = $score;
 

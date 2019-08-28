@@ -9,7 +9,7 @@ services:
     command: ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/
 
   composer:
-    image: composer:latest
+    build: ./docker/composer
     volumes:
       - ./:/var/www/xscores
     working_dir: /var/www/xscores

@@ -12,7 +12,7 @@ class UrlProviderTest extends TestCase
     const TEST_DATE = TestDataInterface::DATE;
     const EXPECTED_URL = 'https://www.xscores.com/tennis/livescores/01-07';
 
-    public function testGetUrlByDateTime():void
+    public function testGetUrlByDateTime()
     {
         $datetime = new DateTime(self::TEST_DATE);
 

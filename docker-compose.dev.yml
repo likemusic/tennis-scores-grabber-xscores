@@ -5,7 +5,3 @@ services:
     environment:
       - XDEBUG_CONFIG=remote_enable=1 remote_autostart=1 remote_host=host.docker.internal remote_port=9000
       - PHP_IDE_CONFIG=serverName=xscores
-#    ports:
-#      - 9000:9000
-#    expose:
-#      - 9000
